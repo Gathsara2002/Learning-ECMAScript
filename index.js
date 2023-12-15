@@ -28,3 +28,23 @@ console.log(fn);
 //Nested object
 const{detail:{data}}=person;
 console.log(data);
+
+
+//Array  Destructuring ----------------------------------------------------------------
+
+let arr=['1','2','3'];
+
+//without destructuring
+console.log(arr[0]);
+console.log(arr[1]);
+console.log(arr[2]);
+
+
+//with destructuring
+let [first,second,third]=arr;
+console.log(first);
+console.log(second);
+console.log(third);
+
+second='10';
+console.log(second);
