@@ -87,3 +87,12 @@ let maxVal=Math.max(...ar3);
 console.log(maxVal);
 
 
+//Rest(...) operator ----------------------------------------------------------------------
+
+function printNumbers(...nums) {
+    console.log(nums);
+}
+
+printNumbers(1,2,3,4,4);
+
+
