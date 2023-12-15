@@ -93,6 +93,6 @@ function printNumbers(...nums) {
     console.log(nums);
 }
 
-printNumbers(1,2,3,4,4);
+printNumbers(1,2,3,4,4);  
 
 
