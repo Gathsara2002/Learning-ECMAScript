@@ -48,3 +48,22 @@ console.log(third);
 
 second='10';
 console.log(second);
+
+
+
+//Object Literals ----------------------------------------------------------------
+
+function addressMaker(city,state) {
+
+    //Traditional object
+    const newAddress={city:city,state:state}
+    console.log(newAddress);
+
+    //Object literal
+    const newAddress1={city,state}
+    console.log(newAddress1);
+}
+
+addressMaker('Austin','Texas');
+
+
