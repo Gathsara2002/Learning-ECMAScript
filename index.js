@@ -96,3 +96,40 @@ function printNumbers(...nums) {
 printNumbers(1,2,3,4,4);  
 
 
+//Arrow function ---------------------------------------------------------------------------
+
+function sum(a, b) {
+    return a + b;
+}
+
+//tow params and return statement arrow function
+let sum2 = (a, b) => a + b;
+
+
+function isPositive(num) {
+    return num > 0;
+}
+
+//one param and return statement
+let isPositive2 = num => num > 0;
+
+
+function randomNumbers() {
+    return Math.random;
+}
+
+
+//parameterless arrow function
+let randomNumbers2 = () => Math.random;
+
+
+//padStart() , padEnd() --------------------------------------------------------------------------
+
+let example="Ryan";
+
+console.log(example.padStart(10,'abc'));  //abcabcRyan
+console.log(example.padEnd(10,'abcd'));    //Ryanabcabc
+
+
+
+
