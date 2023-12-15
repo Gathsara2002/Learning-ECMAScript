@@ -146,3 +146,6 @@ console.log(car);
 
 //access method
 car.drive();
+
+//static key word
+Car.carColor();

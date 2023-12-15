@@ -7,4 +7,8 @@ export class Car {
     drive(){
         console.log("Car is driving");
     }
+
+    static carColor(){
+        return 'color is nave blue';
+    }
 }
