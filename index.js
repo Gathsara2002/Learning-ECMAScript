@@ -67,3 +67,11 @@ function addressMaker(city,state) {
 addressMaker('Austin','Texas');
 
 
+//incudes() ------------------------------------------------------------------------
+
+let array=[1,2,3,4,5,6,7,8];
+
+console.log(array.indexOf(1));
+console.log(array.includes(1));
+
+
