@@ -128,8 +128,21 @@ let randomNumbers2 = () => Math.random;
 let example="Ryan";
 
 console.log(example.padStart(10,'abc'));  //abcabcRyan
-console.log(example.padEnd(10,'abcd'));    //Ryanabcabc
+console.log(example.padEnd(10,'abcd'));    //Ryanabcdab
 
 
 
 
+//Classes -----------------------------------------------------------------------------------------
+
+import { Car } from './car.js';
+
+let car=new Car('Buggati',2016);
+console.log(car);
+
+//change value
+car.year=2020;
+console.log(car);
+
+//access method
+car.drive();
